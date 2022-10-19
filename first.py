@@ -4,7 +4,6 @@ print(f"Hello {name}.")
 
 a = int(input("Enter integer number: "))
 if a%2 == 0:
-    print('Entered number is Even')
+    print('Number is {a} is odd number')
 else:
-    print(f"Number is {a}")
-    print('Entered number is Odd number')
+    print(f'Number is {a} is odd number')
