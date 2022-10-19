@@ -6,4 +6,5 @@ a = int(input("Enter integer number: "))
 if a%2 == 0:
     print('Entered number is Even')
 else:
+    print(f"Number is {a}")
     print('Entered number is Odd')
