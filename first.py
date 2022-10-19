@@ -1,3 +1,6 @@
 name = input("Enter your name: ")
-print("Welcome to Python")
-print(f"Hello {name}.")
+num = int(input(f'Hello {name } enter any integer number: '))
+if num %2 == 0:
+    print(f'{num} is even.')
+else:
+    print(f'{num} is odd.')
